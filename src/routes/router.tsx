@@ -6,7 +6,7 @@ import Splash from 'components/loading/Splash';
 import PageLoader from 'components/loading/PageLoader';
 
 const App = lazy(() => import('App'));
-const Dashboard = lazy(() => import('pages/dashboard'));
+const Dashboard = lazy(() => import('pages/dashboard/Dashboard'));
 const Table = lazy(() => import('pages/dashboard/table'));
 const Visualize = lazy(() => import('pages/dashboard/visualize'));
 const VisualizeTable = lazy(() => import('pages/dashboard/visualizeTable'));
