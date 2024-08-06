@@ -1,7 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 import { Suspense, lazy } from 'react';
 import { Outlet, createBrowserRouter } from 'react-router-dom';
-import MainLayout from 'layouts/main-layout';
+import MainLayout from 'layouts/main-layout/main-layout';
 import Splash from 'components/loading/Splash';
 import PageLoader from 'components/loading/PageLoader';
 
