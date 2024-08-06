@@ -8,7 +8,6 @@ const ProfileListItem = ({ subheader, path }: MenuItem) => {
   return (
     <ListItemButton component={Link} href={path}>
       <Stack spacing={1} alignItems="center">
-        
         <Stack direction="column">
           <Typography variant="subtitle2" color="text.primary" letterSpacing={0.5}>
             {subheader}
