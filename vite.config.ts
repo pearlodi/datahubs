@@ -25,5 +25,5 @@ export default defineConfig({
       overlay: false,
     },
   },
-  base: '/dashdarkx',
+  base: '/datahub',
 });
